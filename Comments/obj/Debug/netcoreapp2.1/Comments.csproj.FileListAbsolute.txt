@@ -1,0 +1,16 @@
+D:\mvc\Comments\Comments\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\mvc\Comments\Comments\bin\Debug\netcoreapp2.1\appsettings.json
+D:\mvc\Comments\Comments\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\mvc\Comments\Comments\bin\Debug\netcoreapp2.1\Comments.deps.json
+D:\mvc\Comments\Comments\bin\Debug\netcoreapp2.1\Comments.runtimeconfig.json
+D:\mvc\Comments\Comments\bin\Debug\netcoreapp2.1\Comments.runtimeconfig.dev.json
+D:\mvc\Comments\Comments\bin\Debug\netcoreapp2.1\Comments.dll
+D:\mvc\Comments\Comments\obj\Debug\netcoreapp2.1\Comments.csprojAssemblyReference.cache
+D:\mvc\Comments\Comments\obj\Debug\netcoreapp2.1\Comments.RazorAssemblyInfo.cache
+D:\mvc\Comments\Comments\obj\Debug\netcoreapp2.1\Comments.RazorAssemblyInfo.cs
+D:\mvc\Comments\Comments\obj\Debug\netcoreapp2.1\Comments.AssemblyInfoInputs.cache
+D:\mvc\Comments\Comments\obj\Debug\netcoreapp2.1\Comments.AssemblyInfo.cs
+D:\mvc\Comments\Comments\obj\Debug\netcoreapp2.1\Comments.RazorTargetAssemblyInfo.cache
+D:\mvc\Comments\Comments\bin\Debug\netcoreapp2.1\Comments.pdb
+D:\mvc\Comments\Comments\obj\Debug\netcoreapp2.1\Comments.dll
+D:\mvc\Comments\Comments\obj\Debug\netcoreapp2.1\Comments.pdb
