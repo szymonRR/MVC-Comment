@@ -14,3 +14,13 @@ D:\mvc\Comments\Comments\obj\Debug\netcoreapp2.1\Comments.RazorTargetAssemblyInf
 D:\mvc\Comments\Comments\bin\Debug\netcoreapp2.1\Comments.pdb
 D:\mvc\Comments\Comments\obj\Debug\netcoreapp2.1\Comments.dll
 D:\mvc\Comments\Comments\obj\Debug\netcoreapp2.1\Comments.pdb
+D:\mvc\Comments\Comments\obj\Debug\netcoreapp2.1\Comments.TagHelpers.input.cache
+D:\mvc\Comments\Comments\obj\Debug\netcoreapp2.1\Comments.TagHelpers.output.cache
+D:\mvc\Comments\Comments\obj\Debug\netcoreapp2.1\Comments.RazorCoreGenerate.cache
+D:\mvc\Comments\Comments\obj\Debug\netcoreapp2.1\Razor\Views\Home\ArticleView.cshtml.g.cs
+D:\mvc\Comments\Comments\obj\Debug\netcoreapp2.1\Comments.RazorTargetAssemblyInfo.cs
+D:\mvc\Comments\Comments\bin\Debug\netcoreapp2.1\Comments.Views.dll
+D:\mvc\Comments\Comments\bin\Debug\netcoreapp2.1\Comments.Views.pdb
+D:\mvc\Comments\Comments\obj\Debug\netcoreapp2.1\Comments.Views.pdb
+D:\mvc\Comments\Comments\obj\Debug\netcoreapp2.1\Comments.csproj.CopyComplete
+D:\mvc\Comments\Comments\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
