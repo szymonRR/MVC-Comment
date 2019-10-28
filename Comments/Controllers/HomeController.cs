@@ -12,6 +12,7 @@ namespace Comments.Controllers
     {
         public ViewResult Index()
         {
+
             return View("Index");
         }
         public ViewResult Article()
@@ -20,7 +21,15 @@ namespace Comments.Controllers
             return View("ArticleView",com1);
         }
         
-        
+        public List<Article> GetArticleList() {
+            //In futre get list from database??
+            List<Article> articleList = new List<Article>();
+            Article artile1 = new Article { ArticleId = 1, AutorName = "Szymon", Content = "Trallalala" };
+            articleList.Add(artile1 ) ;
+
+            return articleList;
+        }
+
         
         
     }

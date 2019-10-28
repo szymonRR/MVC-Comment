@@ -12591,23 +12591,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Szymon\\.nuget\\packages\\": {},
+    "C:\\Users\\szymon2\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\mvc\\Comments\\Comments\\Comments.csproj",
+      "projectUniqueName": "D:\\prog\\mvc\\comment\\MVC-Comment\\Comments\\Comments.csproj",
       "projectName": "Comments",
-      "projectPath": "D:\\mvc\\Comments\\Comments\\Comments.csproj",
-      "packagesPath": "C:\\Users\\Szymon\\.nuget\\packages\\",
-      "outputPath": "D:\\mvc\\Comments\\Comments\\obj\\",
+      "projectPath": "D:\\prog\\mvc\\comment\\MVC-Comment\\Comments\\Comments.csproj",
+      "packagesPath": "C:\\Users\\szymon2\\.nuget\\packages\\",
+      "outputPath": "D:\\prog\\mvc\\comment\\MVC-Comment\\Comments\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Szymon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\szymon2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12647,7 +12647,6 @@
             "version": "[2.1.2, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
@@ -12658,16 +12657,10 @@
           }
         },
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }
