@@ -1,20 +1,48 @@
-﻿@model Comments.Models.Comment
+﻿@using Comments.Models
+@model Comment
+
 
 @{
     @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
     Layout = null;
+    IEnumerable<Comment> co = ViewData["com"] as IEnumerable<Comment>;
 }
 <!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Language Features</title>
+    <title>Artykół</title>
 </head>
 <body>
+    <form asp-action="Article" method="POST">
+        <div>
+            <label asp-for="Nick">Nick:</label>
+            <input asp-for="Nick" />
+        </div>
+        <div>
+            <label asp-for="Text">Tekst:</label>
+            <input asp-for="Text" />
+        </div>
+        <button type="submit">Dodaj</button>
+
+
+    </form>
     <h1>Komentarze:</h1>
-    <ul>
-        <li>@Model.Text</li>
-    </ul>
+    <table>
+        <thead>
+            <tr><td>Nick</td><td>Komentarz</td><td>Data</td></tr>
+        </thead>
+        <tbody>
+            @foreach (var c in co)
+            {
+                <tr>
+                    <td>@c.Nick</td>
+                    <td>@c.Text</td>
+                    <td>@c.Date</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 
 </body>
 </html>

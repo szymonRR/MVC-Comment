@@ -10,24 +10,25 @@ namespace Comments.Controllers
 {
     public class HomeController : Controller
     {
+        SimpleRepository Repository = SimpleRepository.SharedRepository;
         public ViewResult Index()
         {
 
             return View("Index");
         }
-        public ViewResult Article()
+        public IActionResult Article()
         {
-            Comment com1 = new Comment(1, "a", "Dupa");
-            return View("ArticleView",com1);
+            ViewData["com"] = SimpleRepository.SharedRepository.Comms;
+            return View("ArticleView");
         }
         
-        public List<Article> GetArticleList() {
-            //In futre get list from database??
-            List<Article> articleList = new List<Article>();
-            Article artile1 = new Article { ArticleId = 1, AutorName = "Szymon", Content = "Trallalala" };
-            articleList.Add(artile1 ) ;
-
-            return articleList;
+        [HttpPost]
+        public IActionResult Article(Comment com){
+            
+            
+            
+            
+           return RedirectToAction("Article");
         }
 
         
