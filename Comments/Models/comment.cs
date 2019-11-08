@@ -7,11 +7,11 @@ namespace Comments.Models
 {
     public class Comment
     {
-        public int ComentId { get; private set; }
-        public int ArticleId { get; private set; }
-        public string Nick { get; private set; }
-        public string Text { get; private set; }
-        public DateTime Date { get; private set; }
+        public int ComentId { get;  set; }
+        public int ArticleId { get;  set; }
+        public string Nick { get;  set; }
+        public string Text { get; set; }
+        public DateTime Date { get; set; }
 
         public Comment(int comentId, int articleID, string nick, string text)
         {
@@ -19,6 +19,10 @@ namespace Comments.Models
             ArticleId = articleID;
             Nick = nick;
             Text = text;
+            Date = DateTime.Now;
+        }
+        public Comment()
+        {
             Date = DateTime.Now;
         }
 

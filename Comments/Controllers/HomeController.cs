@@ -16,17 +16,19 @@ namespace Comments.Controllers
 
             return View("Index");
         }
-        public IActionResult Article()
+        public IActionResult Article(int? id)
         {
-            ViewData["com"] = SimpleRepository.SharedRepository.Comms;
+            ViewData["com"] = SimpleRepository.SharedRepository.Comms.Where(c => c.ArticleId==id);
+            ViewBag.articleid = id;
+            ViewBag.comId = SimpleRepository.SharedRepository.Comms.Count()+1;
             return View("ArticleView");
         }
         
         [HttpPost]
         public IActionResult Article(Comment com){
-            
-            
-            
+
+
+            Repository.AddCom(com);
             
            return RedirectToAction("Article");
         }
